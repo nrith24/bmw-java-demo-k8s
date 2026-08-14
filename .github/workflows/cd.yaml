@@ -129,7 +129,7 @@ jobs:
       - name: Checkout Deployment Repo
         uses: actions/checkout@v4
         with:
-          repository: JitenPalaparthi/bmw-java-demo-k8s-deployment
+          repository: nrith24/bmw-java-demo-k8s-deployment
           token: ${{ secrets.DEPLOYMENT_TOKEN }}
           path: deployment-repo
 
